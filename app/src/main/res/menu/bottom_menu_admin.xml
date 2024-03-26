@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title=""
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/shorts"
+        android:title=""
+        android:icon="@drawable/writing"
+        />
+
+
+    <item
+        android:id="@+id/subscriptions"
+        android:title=""
+        android:icon="@drawable/user_profile" />
+
+</menu>

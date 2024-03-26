@@ -11,8 +11,10 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+
 }
 
-rootProject.name = "Grooming3"
+
+rootProject.name = "My Application"
 include(":app")
  
