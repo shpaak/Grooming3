@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "140952997327",
+    "project_id": "grooming-salon-e41a0",
+    "storage_bucket": "grooming-salon-e41a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140952997327:android:c96e4ec58758f4c046d6ba",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD27-UDnOP--02Qf7IgN2W_LzledAlzrw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

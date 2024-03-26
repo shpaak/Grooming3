@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F0F6"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Изображение размером 200x200 в верхней части -->
+        <ImageView
+            android:id="@+id/top_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/back"
+            android:scaleType="fitXY" />
+
+
+
+        <!-- Текстовое поле -->
+        <TextView
+            android:id="@+id/text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_image"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="8dp"
+            android:padding="16dp"
+            android:text="О Собаке-Барабаке\n\nНазвание у нас несерьезное: мы хотим, чтобы вы и ваши любимцы уже с порога почувствовали искреннюю дружбу и непринужденную атмосферу.\n\nНа этом несерьезность заканчивается – в работе мы профи.\n\nВсе наши грумеры имеют опыт работы в салонах, работают только на профессиональном оборудовании и только на профессиональной косметике – у нас найдутся средства для любого типа шерсти и кожи.\n\nНикаких домашних ванн и чайных столиков, покрытых клеенкой – тут все по-взрослому.\n\nЗа качество работы и заботу о четвероногом члене вашей семьи вы можете быть спокойны – мы обожаем животных, и у каждого из нас в семье есть мохнатые любимцы." />
+
+        <!-- Три картинки в ряд -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_field"
+            android:orientation="horizontal"
+            android:layout_marginBottom="90dp">
+
+            <ImageView
+                android:id="@+id/VK"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="95dp"
+                android:src="@drawable/vk" />
+
+            <ImageView
+                android:id="@+id/Teleg"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/telega" />
+
+            <ImageView
+                android:id="@+id/Insta"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/instagram" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSettingActivity"
+    android:background="#F2F0F6">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_settings"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/welcome">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/close_button"
+                    android:layout_width="25dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/baseline_clear_24"
+                    app:tint="@color/black" />
+                <ImageView
+                    android:id="@+id/save_button"
+                    android:layout_width="25dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/baseline_save_as_24"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="15dp"
+                    app:tint="@color/black"
+                    />
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/user_profile"
+            app:civ_border_color="#FF000000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="101dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Сменить фото"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:id="@+id/change_foto"
+            />
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Имя"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+
+            />
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+
+            />
+        <EditText
+            android:id="@+id/user_pets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Порода"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+
+            />
+        <EditText
+            android:id="@+id/name_pets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Кличка"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+
+            />
+        <EditText
+            android:id="@+id/features_pets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Особенность"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+</RelativeLayout>
